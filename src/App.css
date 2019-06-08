@@ -1,0 +1,72 @@
+.main{
+  background-color: aqua;
+}
+.header1{
+  text-align: center;
+  background-color: yellow;
+  
+
+
+}
+.list1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+
+nav li a {
+  list-style-type: none;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: green;
+}
+img{
+  position : relative;
+  left : 625px;
+  top : 50px;
+  display : block;
+  
+  max-width : 10%;
+}
+aside {
+  height: 80%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 1150px;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+aside a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+aside a:hover
+{
+  background-color : yellow;
+}
+form{
+  position: relative;
+  top : 120px;
+  left : 100px;
+}
